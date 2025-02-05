@@ -1,0 +1,41 @@
+---
+import  HeroLogo from '@/assets/HeroLogo.astro'
+import Email from '@/assets/Email.astro'
+import Github from '@/assets/GitHub.astro'
+import Linkedin from '@/assets/LinkedIn.astro'
+
+---
+
+<HeroLogo/>
+<section class="border-black border-2 p-4 whitespace-nowrap">
+    <h1 class="text-[2rem] font-semibold" >Hola, soy <span class="font-bold">Alejandro</span>.</h1>
+    <h2 class=" text-[2rem]"><span class="desarrolador font-bold">Desarrollador</span> <span class="font-bold">Web</span>.</h2>
+    <h3 class="text-[2rem] font-semibold">Ubicado en <span class="font-bold">España.</span></h3>
+</section>
+
+<section class="py-4 text-zinc-500 overflow-hidden">
+    <p>
+    Soy Alejandro Romero Stankevich, un junior web developer.
+    Estudiante de Grado Superior.
+    Abierto a oportunidades de trabajo y prácticas.
+    Barcelona/Tarragona.</p>
+</section>
+
+<section class="p-4">
+    <ul class="flex justify-around">
+        <li class="w-14 border-2 border-black rounded p-2"><a href="#"><Github/></a></li>
+        <li class="w-14 border-2 border-black rounded p-2"><a href="#"><Linkedin/></a></li>
+        <li class="w-14 border-2 border-black rounded p-2"><a href="#"><Email/></a></li>
+    </ul>
+</section>
+
+<style>
+
+.desarrolador {
+
+  -webkit-text-fill-color: transparent; /* Relleno del texto transparente */
+  -webkit-text-stroke: 1px black; /* Contorno de 2px en color negro */
+    text-stroke: 1px rgb(255, 255, 255);
+}
+</style>
+

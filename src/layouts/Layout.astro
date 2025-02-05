@@ -4,16 +4,20 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>Portfolio</title>
 	</head>
 	<body>
-		<slot />
+		<div class="max-w-[80rem] ml-[1.5rem] mr-[1.5rem] pt-[1.5rem] sm:pt-[1.5rem]">
+			<slot />
+		</div>
+		
 	</body>
 </html>
 
 <style>
-	html,
+	html {
+		font-family: 'Inter', sans-serif;
+	},
 	body {
 		margin: 0;
 		width: 100%;
