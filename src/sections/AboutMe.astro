@@ -1,13 +1,22 @@
----
-import AboutMeLogo from "@/assets/AboutMeLogo.astro";
----
-
-<div class="mt-8">
-    <div class="flex border-2  border-black rounded-lg justify-center">
-        <div>
-            <AboutMeLogo/>
+<div class="mt-8 flex justify-center items-start flex-col md:flex-row" id="about-me">  
+        <div class="border-2  border-black rounded-lg justify-center ml-auto mr-auto sm:w-full md:w-[50%] md:mr-[5%] lg:w-[50%] ">
+                <img src="../../public/AboutMe2.png" class="m-auto w-[90%] object-cover sm:m-auto sm:w-[50%] md:w-[91%] lg:w-[92%]"/>
         </div>
-    </div>
-   <h2>About Me</h2>
+        
+        <div class=" text-start md:w-[50%] lg:w-[78%]">
+                <h2 class="pt-12  text-2xl font-normal sm:text-[2rem] md:pt-0 md:pb-2 md:text-[1.7rem]">About <span class="font-bold">Me</span></h2>
+                
+                <p class="py-4 md:py-2 text-lg text-zinc-500  md:text-[65%] lg:text-[100%] lg:py-4">
+                        ¡Hola! Soy Alejandro, estudiante de Grado Superior de Desarrollo Web en Cataluña. Me apasiona la tecnología y el desarrollo de aplicaciones web, con especial interés en el frontend.
+                        Actualmente, estoy perfeccionando mis habilidades en Astro, TailwindCSS, HTML y CSS, y tengo pendiente aprender bien JavaScript, Vue.js y React. También estoy estudiando PostgreSQL y Python, y tengo conocimientos básicos de consola Linux.  
+                </p>
+
+                <p class="py-4 md:py-2 text-lg text-zinc-500  md:text-[65%]   lg:text-[100%]">
+                        Además, estoy realizando un curso de Desarrollo Blockchain y, una vez domine bien el Desarrollo Web, tengo intención de profundizar en este campo.
+                        Me considero una persona proactiva, que trabaja bien en equipo y siempre busca mejorar. 🚀
+                </p>
+       
+        </div>
    
+
 </div>
