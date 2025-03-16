@@ -5,12 +5,12 @@ import Github from '@/assets/GitHub.astro'
 import Linkedin from '@/assets/LinkedIn.astro'
 
 ---
-<div class=" flex flex-col md:flex-row-reverse md:mt-[4rem] ">
-    <div class="ml-auto mr-auto flex justify-center mb-[5%] overflow-hidden shadow-lg rounded-[5%]">
-        <img src="../../public/logo.png" alt="Logo" class="w-42 h-42 p-2 rounded-[100%] md:w-[22rem] md:h-[22rem] md:rounded-[15%] lg:w-[25rem] lg:h-[25rem] xl:w-[30rem] xl:h-[30rem] object-cover p-2 sm:w-[32rem] sm:h-[32rem] md:w-[23rem] md:h-[23rem]">
+<div class=" flex flex-col md:flex-row-reverse md:mt-[4rem] 2xl:mt-[6rem]">
+    <div class="ml-auto mr-auto flex justify-center mb-[5%] overflow-hidden shadow-xl rounded-[5%]">
+        <img src="../../public/logo.png" alt="Logo" class="w-42 h-42 p-2 rounded-[100%] md:w-[19rem] md:h-[19rem] md:rounded-[15%] lg:w-[23rem] lg:h-[23rem] xl:w-[28rem] xl:h-[28rem] 2xl:w-[32rem] 2xl:h-[32rem] object-cover p-2 sm:w-[32rem] sm:h-[32rem] md:w-[23rem] md:h-[23rem]">
     </div>
    
-    <section class="whitespace-nowrap text-center ml-auto mr-auto md:w-[50%] lg:mr-[5%]  md:flex md:flex-col md:items-start md:justify-center md:text-start ">
+    <section class="whitespace-nowrap text-center ml-auto mr-auto md:w-[50%] lg:mr-0 xl:mr-0 2xl:mr-0 2xl:ml-20  md:flex md:flex-col md:items-start md:justify-center md:text-start ">
         <div class="border-black border-2 p-2 md:border-none md:pl-0 ">
             <h1 class="text-[1.9rem] sm:text-[2.2rem] font-normal md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem]" >Hola, soy <span class="font-bold">Alejandro</span>.</h1>
             <h2 class=" text-[1.9rem] sm:text-[2.2rem] md:text-[2rem] lg:text-[2.5rem] xl:text-[3rem]"><span class="desarrolador font-bold">Desarrollador</span> <span class="font-bold">Web</span></h2>
@@ -34,10 +34,10 @@ import Linkedin from '@/assets/LinkedIn.astro'
 
 
 <section class="p-4 md:flex md:pl-0 md:pt-0">
-    <ul class="flex justify-around md:gap-[1rem] md:w-[11rem] ">
-        <li class="w-14 xl:w-[5.5rem] border-2 border-black rounded p-2"><a href="#"><Github/></a></li>
-        <li class="w-14 xl:w-[5.5rem] border-2 border-black rounded p-2"><a href="#"><Linkedin/></a></li>
-        <li class="w-14 xl:w-[5.5rem] border-2 border-black rounded p-2"><a href="#"><Email/></a></li>
+    <ul class="flex justify-around md:gap-[1rem] md:w-[11rem] 2xl:w-[13rem]">
+        <a href="https://github.com/al3-rom" target="_blank" class="w-14 xl:w-[5.5rem] 2xl:w-[6.5rem] border-2 border-black rounded p-2"><Github/></a>
+        <a href="https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/" target="_blank"  class="w-14 xl:w-[5.5rem] 2xl:w-[6.5rem] border-2 border-black rounded p-2"><Linkedin/></a>
+        <a href="mailto:sasha.stankevich223@gmail.com" target="_blank" class="w-14 xl:w-[5.5rem] 2xl:w-[6.5rem] border-2 border-black rounded p-2"><Email/></a>
     </ul>
    
 </section>
@@ -47,6 +47,16 @@ import Linkedin from '@/assets/LinkedIn.astro'
 </section>
 
 <style>
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.blinking-text {
+    animation: blink 1.5s infinite;
+}
 
 .desarrolador {
 

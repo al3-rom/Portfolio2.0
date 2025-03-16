@@ -1,22 +1,40 @@
-<div class="mt-8 flex justify-center items-start flex-col md:flex-row" id="about-me ">  
-        <div class="rounded-[5%] mt-[1%] lg:pt-0 overflow-hidden shadow-lg border-4 border-white justify-center ml-auto mr-auto sm:w-full md:w-[25rem] md:pt-2  md:mr-[5%] lg:w-[50%] ">
-                <img src="../../public/AboutMe2.png" class="rounded-[100%] md:rounded-[20%] lg:pt-0 p-2 m-auto w-[90%] object-cover sm:m-auto sm:w-[60%] md:w-[25rem] md:h-[25rem] lg:w-[23rem] lg:h-[23rem] xl:w-[90%]"/>
+<div class="mt-8 flex justify-center items-start flex-col md:flex-row lg:pt-12 xl:pt-16" id="about-me">  
+        <div class="rounded-[5%] mt-[1%] lg:pt-0 overflow-hidden shadow-xl border-4 border-white justify-center ml-auto mr-auto sm:w-full md:w-[25rem] md:pt-2 md:mr-[5%] lg:w-[50%]">
+            <img src="../../public/AboutMe2.png" class="rounded-[100%] md:rounded-[20%] lg:pt-0 p-2 m-auto w-[90%] object-cover sm:m-auto sm:w-[60%] md:w-[25rem] md:h-[25rem] lg:w-[23rem] lg:h-[23rem] xl:w-[23.5rem] xl:h-[23.5rem] 2xL:w-[24.8rem] 2xl:h-[24.8rem]"/>
         </div>
-        
-        <div class="text-start md:w-[50%] lg:w-[70%]">
-                <h2 class="pt-12  text-2xl font-normal sm:text-[2rem] md:pt-0 md:pb-2 md:text-[1.8rem] lg:text-[2rem] xl:text-[2.2rem]">About <span class="font-bold">Me</span></h2>
-                
-                <p class="py-4 md:py-2 text-lg text-zinc-500  lg:py-4 md:text-[80%] lg:text-[112%] xl:text-[140%] lg:py-4 xl:py-6">
-                        ¡Hola! Soy Alejandro, estudiante de Grado Superior de Desarrollo Web en Cataluña. Me apasiona la tecnología y el desarrollo de aplicaciones web, con especial interés en el frontend.
-                        Actualmente, estoy perfeccionando mis habilidades en Astro, TailwindCSS, HTML y CSS, y tengo pendiente aprender bien JavaScript, Vue.js y React. También estoy estudiando PostgreSQL y Python, y tengo conocimientos básicos de consola Linux.  
-                </p>
-
-                <p class="py-4 md:py-2 text-lg text-zinc-500  md:text-[80%]   lg:text-[112%] xl:text-[140%] xl:py-4">
-                        Además, estoy realizando un curso de Desarrollo Blockchain y, una vez domine bien el Desarrollo Web, tengo intención de profundizar en este campo.
-                        Me considero una persona proactiva, que trabaja bien en equipo y siempre busca mejorar. 🚀
-                </p>
-       
+    
+        <div class="text-start md:w-[50%] opacity-0 translate-y-10 transition-all duration-700 ease-in-out scroll-reveal">
+            <h2 class="pt-12 text-2xl font-normal sm:text-[2rem] md:pt-0 md:pb-2 md:text-[1.8rem] lg:text-[2rem] xl:text-[2.2rem]">
+                About <span class="font-bold">Me</span>
+            </h2>
+            
+            <p class="leading-relaxed py-4 md:py-2 text-lg text-zinc-500 lg:py-4 md:text-[0.9rem] lg:text-[1rem] xl:text-[1.12rem] 2xl:text-[1.2rem] 2xl:leading-loose lg:py-4 xl:py-2">
+                ¡Hola! Soy Alejandro, estudiante de Grado Superior de Desarrollo Web en Cataluña. Me apasiona la tecnología y el desarrollo de aplicaciones web, con especial interés en el frontend.
+                Actualmente, estoy perfeccionando mis habilidades en Astro, TailwindCSS, HTML y CSS, y tengo pendiente aprender bien JavaScript, Vue.js y React. También estoy estudiando PostgreSQL y Python, y tengo conocimientos básicos de consola Linux.  
+            </p>
+    
+            <p class="leading-relaxed py-4 md:py-2 text-lg text-zinc-500 md:text-[0.875rem] lg:text-[1rem] xl:text-[1.12rem] 2xl:text-[1.2rem] xl:py-4">
+                Además, estoy realizando un curso de Desarrollo Blockchain y, una vez domine bien el Desarrollo Web, tengo intención de profundizar en este campo.
+                Me considero una persona proactiva, que trabaja bien en equipo y siempre busca mejorar. 🚀
+            </p>
         </div>
-   
-
-</div>
+    </div>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const elements = document.querySelectorAll(".scroll-reveal");
+    
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.remove("opacity-0", "translate-y-10");
+                }
+            });
+        }, { threshold: 0.2 });
+    
+        elements.forEach(element => {
+            observer.observe(element);
+        });
+    });
+    </script>
+    
