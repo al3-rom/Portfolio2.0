@@ -1,0 +1,63 @@
+{
+    "layout": {
+      "pageTitle": "Portafolio",
+    "description": "Portafolio de Alejandro | Desarrollador Web",
+    "footerText": "© 2025 Alejandro | Buscando trabajo",
+    "github": "GitHub",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+    },
+    "nav": {
+        "aboutMe": "Sobre mí",
+        "skills": "Habilidades",
+        "contactMe": "Contáctame",
+        "downloadCV": "Descargar CV"
+    },
+    "hero":{
+        "greeting": "Hola, soy <span class=\"font-bold\">Alejandro</span>.",
+        "profession": "<span class=\"desarrollador font-bold\">Desarrollador</span> <span class=\"font-bold\">Web</span>",
+        "location": "Ubicado en <span class=\"font-bold\">España.</span>",
+        "introText": "Soy Alejandro Romero Stankevich, desarrollador web junior. Actualmente, estudio un Grado Superior en Desarrollo Web. Estoy abierto a oportunidades laborales y prácticas. Me ubico en Barcelona/Tarragona📍.",
+        "downloadCV": "Descargar CV"
+    },
+    "skills":{
+        "skillsTitle": "Mis <span class=\"font-bold\">Habilidades</span>"
+    },
+    "exp":{
+        "experienceTitle": "Mi <span class=\"font-bold\">Experiencia</span>",
+        "company": "ConquerBlocks",
+    
+        "duration": "Agosto 2023 - Presente",
+        "description": "He empezado un curso de Desarrollo Full Stack, que al principio estudiaba por mi cuenta en mi tiempo libre. El curso incluye Desarrollo de Blockchain, un área que me interesa explorar después de consolidar mis conocimientos en Desarrollo Web.",
+        "company1": "Grado Superior",
+
+        "duration1": "Septiembre 2024 - Presente",
+        "description1": "En septiembre comencé el Grado Superior de Desarrollo Web en un instituto de Cataluña. El curso tiene una duración de dos años, y ya estoy interesado en encontrar trabajo o prácticas.",
+        "company2": "Portfolio GitHub",
+
+        "duration2": "Agosto 2023 - Presente",
+        "description2": "En GitHub podéis ver todas mis actualizaciones y casi toda mi trayectoria de aprendizaje, incluyendo mis contribuciones y cómo han evolucionado mis habilidades a lo largo del tiempo."
+      },
+    "aboutMe":{
+        "aboutMeTitle": "Sobre <span class=\"font-bold\">mí</span>",
+        "intro": "¡Hola! Soy Alejandro, estudiante de Grado Superior de Desarrollo Web en Cataluña. Me apasiona la tecnología y el desarrollo de aplicaciones web, con especial interés en el frontend. Actualmente, estoy perfeccionando mis habilidades en Astro, TailwindCSS, HTML y CSS, y tengo pendiente aprender JavaScript, Vue.js y React. También estoy estudiando PostgreSQL y Python, y tengo conocimientos básicos de consola Linux.",
+        "extra": "Además, estoy realizando un curso de Desarrollo Blockchain y, una vez domine el Desarrollo Web, tengo intención de profundizar en este campo. Me considero una persona proactiva, que trabaja bien en equipo y siempre busca mejorar. 🚀"
+    },
+    "contact":{
+        "contactTitle": "Let’s <span class=\"build font-bold\">build</span><br/>Something amazing",
+    "intro": "Actualmente estoy creando pequeñas páginas web para mejorar mis habilidades en Astro, TailwindCSS, HTML y CSS, además de estudiar un poco de JavaScript y Vue.js. Estoy buscando trabajo para seguir creciendo y aportar mis conocimientos a un equipo dinámico.",
+    "email": "sasha.stankevich223@gmail.com",
+    "socialLinks": {
+      "email": "mailto:sasha.stankevich223@gmail.com",
+      "github": "https://github.com/al3-rom",
+      "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
+    }
+    },
+    "footer":{
+      "footerText": "© 2025 Alejandro | Buscando trabajo",
+  "github": "GitHub",
+  "email": "Email",
+  "linkedin": "LinkedIn"
+    }
+
+}

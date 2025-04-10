@@ -1,0 +1,98 @@
+---
+import Email from '@/assets/Email.astro'
+import Github from '@/assets/GitHub.astro'
+import Linkedin from '@/assets/LinkedIn.astro'
+
+---
+
+
+<div class="flex flex-col md:flex-row-reverse md:mt-[4rem] 2xl:mt-[6rem]">
+    <div class="ml-auto mr-auto flex justify-center mb-[5%] overflow-hidden shadow-xl rounded-[5%]">
+        <img src="logo.png" alt="Logo" class="w-42 h-42 p-2 rounded-[100%] md:w-[18rem] md:h-[18rem] md:rounded-[15%] lg:w-[23rem] lg:h-[23rem] xl:w-[28rem] xl:h-[28rem] 2xl:w-[32rem] 2xl:h-[32rem] object-cover p-2 sm:w-[32rem] sm:h-[32rem] md:w-[23rem] md:h-[23rem]">
+    </div>
+   
+    <section class="whitespace-nowrap text-center ml-auto mr-auto md:w-[50%] lg:mr-0 xl:mr-0 2xl:mr-0 2xl:ml-20  md:flex md:flex-col md:items-start md:justify-center md:text-start">
+        <div class="border-black border-2 p-2 md:border-none md:pl-0 ">
+            <h1 class="text-[1.9rem] sm:text-[2.2rem] font-normal md:text-[1.9rem] lg:text-[2.5rem] xl:text-[3rem]" data-i18n="hero.greeting">Hola, soy <span class="font-bold">Alejandro</span>.</h1>
+            <h2 class="text-[1.9rem] sm:text-[2.2rem] md:text-[1.9rem] lg:text-[2.5rem] xl:text-[3rem]" data-i18n="hero.profession"><span class="desarrollador font-bold">Desarrollador</span> <span class="font-bold">Web</span></h2>
+            <h3 class="text-[1.9rem] sm:text-[2.2rem] font-normal md:text-[1.9rem] lg:text-[2.5rem] xl:text-[3rem]" data-i18n="hero.location">Ubicado en <span class="font-bold">España.</span></h3>
+        </div>
+   
+        <p class="py-4 text-zinc-500 overflow-hidden whitespace-normal sm:text-[1.2rem] sm:text-center md:text-start md:text-[0.9rem] lg:w-[76%] xl:text-[1.2rem] 2xl:text-[1.35rem]" data-i18n="hero.introText">
+            Soy Alejandro Romero Stankevich, desarrollador web junior.
+            Actualmente, estudio un Grado Superior en Desarrollo Web.
+            Estoy abierto a oportunidades laborales y prácticas.
+            Me ubico en Barcelona/Tarragona📍.
+        </p> 
+    </section>
+</div>
+
+<section class="p-4 md:flex md:pl-0 md:pt-0">
+    <ul class="flex justify-around md:gap-[1rem] md:w-[11rem] xl:w-[12rem] 2xl:w-[13rem]">
+        <a href="https://github.com/al3-rom" target="_blank" class="w-14 xl:w-[5.5rem] 2xl:w-[6.5rem] border-2 border-black rounded p-2"><Github/></a>
+        <a href="https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/" target="_blank"  class="w-14 xl:w-[5.5rem] 2xl:w-[6.5rem] border-2 border-black rounded p-2"><Linkedin/></a>
+        <a href="mailto:sasha.stankevich223@gmail.com" target="_blank" class="w-14 xl:w-[5.5rem] 2xl:w-[6.5rem] border-2 border-black rounded p-2"><Email/></a>
+    </ul>
+</section>
+
+<section class="text-[1.3rem] p-4 text-center block md:hidden">
+    <a id="cv-download" href="/public/Curriculum_CV_ES.pdf" download="CV_Alejandro.pdf" class="bg-black/90 text-white px-4 py-2 rounded" data-i18n="hero.downloadCV">Descargar CV<svg xmlns="http://www.w3.org/2000/svg" 
+        fill="none" viewBox="0 0 24 24" stroke="currentColor" 
+        class="w-5 h-5 opacity-0 group-hover:opacity-100 translate-x-[-10px] group-hover:translate-x-0 transition-all duration-300">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+            d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M7 10l5 5 5-5M12 4v12" />
+   </svg> </a>
+</section>
+
+<script type="module">
+  document.addEventListener("DOMContentLoaded", () => {
+    const selector = document.getElementById("lang-selector");
+    const cvDownloadButton = document.getElementById("cv-download");
+
+    async function loadLang(lang) {
+      const response = await fetch(`/i18n/${lang}.json`);
+      return await response.json();
+    }
+
+    function updateCVDownloadLink(lang) {
+      if (lang === "en") {
+        cvDownloadButton.setAttribute("href", "/public/Curriculum_CV_EN.pdf");
+        cvDownloadButton.setAttribute("download", "CV_Alejandro_EN.pdf");
+      } else if (lang === "ru") {
+        cvDownloadButton.setAttribute("href", "/public/Curriculum_CV_EN.pdf");
+        cvDownloadButton.setAttribute("download", "CV_Alejandro_EN.pdf");
+      } else {
+        cvDownloadButton.setAttribute("href", "/public/Curriculum_CV_ES.pdf");
+        cvDownloadButton.setAttribute("download", "CV_Alejandro_ES.pdf");
+      }
+    }
+
+    const savedLang = localStorage.getItem("lang") || "es";
+    selector.value = savedLang;
+    updateCVDownloadLink(savedLang);
+
+    selector.addEventListener("change", async (e) => {
+      const lang = e.target.value;
+      localStorage.setItem("lang", lang);
+      updateCVDownloadLink(lang);
+    });
+  });
+</script>
+
+<style>
+    :global(.desarrollador) {
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: 1px black; 
+      text-stroke: 1px rgb(255, 255, 255);
+    }
+
+    :global(.blinking-text) {
+      animation: blink 1.5s infinite;
+    }
+
+    @keyframes blink {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+</style>

@@ -1,0 +1,66 @@
+{
+    
+    
+    "layout": {
+      "pageTitle": "Portfolio",
+    "description": "Alejandro's Portfolio | Web Developer",
+    "footerText": "© 2025 Alejandro | Looking for a job",
+    "github": "GitHub",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+    },
+    "nav": {
+        "aboutMe": "About Me",
+        "skills": "Skills",
+        "contactMe": "Contact Me",
+        "downloadCV": "Download CV"
+    },
+    "hero":{
+        "greeting": "Hi, I'm <span class=\"font-bold\">Alejandro</span>.",
+        "profession": "<span class=\"desarrollador font-bold\">Web</span> <span class=\"font-bold\">Developer</span>",
+        "location": "Located in <span class=\"font-bold\">Spain.</span>",
+        "introText": "I'm Alejandro Romero Stankevich, a junior web developer. Currently, I'm studying a Higher Degree in Web Development. I'm open to job and internship opportunities. I am located in Barcelona/Tarragona📍.",
+        "downloadCV": "Download CV"
+    },
+    "skills":{
+        "skillsTitle": "My <span class=\"font-bold\">Skills</span>"
+         },
+    "exp":{
+        "experienceTitle": "My <span class=\"font-bold\">Experience</span>",
+        "company": "ConquerBlocks",
+    
+        "duration": "August 2023 - Present",
+        "description": "I started a Full Stack Development course, which I initially studied on my own in my free time. The course includes Blockchain Development, an area I’m interested in exploring after consolidating my Web Development knowledge.",
+        "company1": "Grado Superior",
+   
+        "duration1": "September 2024 - Present",
+        "description1": "In September, I began a Higher Degree in Web Development at a school in Catalonia. The course lasts two years, and I’m already looking for work or internships.",
+        "company2": "Portfolio GitHub",
+    
+        "duration2": "August 2023 - Present",
+        "description2": "On GitHub, you can see all my updates and almost my entire learning journey, including my contributions and how my skills have evolved over time."
+      },
+    "aboutMe":{
+        "aboutMeTitle": "About <span class=\"font-bold\">Me</span>",
+        "intro": "Hi! I'm Alejandro, a Higher Degree Web Development student in Catalonia. I’m passionate about technology and web application development, with a special interest in frontend. Currently, I'm perfecting my skills in Astro, TailwindCSS, HTML, and CSS, and I’m planning to learn JavaScript, Vue.js, and React. I’m also studying PostgreSQL and Python, and have basic knowledge of Linux console.",
+        "extra": "Additionally, I'm taking a Blockchain Development course, and once I master Web Development, I plan to dive deeper into this field. I consider myself a proactive person who works well in teams and is always looking to improve. 🚀"
+    },
+    "contact":{
+        "contactTitle": "Let’s <span class=\"build font-bold\">build</span><br/>Something amazing",
+        "intro": "I am currently creating small web pages to improve my skills in Astro, TailwindCSS, HTML, and CSS, as well as learning a bit of JavaScript and Vue.js. I am looking for a job to continue growing and contribute my knowledge to a dynamic team.",
+        "email": "sasha.stankevich223@gmail.com",
+        "socialLinks": {
+          "email": "mailto:sasha.stankevich223@gmail.com",
+          "github": "https://github.com/al3-rom",
+          "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
+        }
+    },
+    "footer":{
+      "footerText": "© 2025 Alejandro | Looking for a job",
+  "github": "GitHub",
+  "email": "Email",
+  "linkedin": "LinkedIn"
+    }
+    
+    
+}

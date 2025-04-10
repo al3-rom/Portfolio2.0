@@ -1,0 +1,37 @@
+<div class="mt-8 flex justify-center items-start flex-col md:flex-row lg:pt-12 xl:pt-16" id="about-me">  
+    <div class="rounded-[3%] mt-[1%] lg:pt-0 overflow-hidden shadow-lg border-4 border-white justify-center ml-auto mr-auto sm:w-full md:w-[25rem] md:pt-2 md:mr-[5%] lg:w-[37.5%] xl:w-[38.5%] 2xl:w-[37%]">
+      <img src="AboutMe2.png" class="rounded-[100%] md:rounded-[20%] lg:pt-0 p-2 m-auto w-[90%] object-cover sm:m-auto sm:w-[60%] md:w-[25rem] md:h-[25rem] lg:w-[23rem] lg:h-[23rem] xl:w-[23.5rem] xl:h-[23.5rem] 2xL:w-[26rem] 2xl:h-[26rem]"/>
+    </div>
+  
+    <div class="text-start md:w-[50%] lg:w-[62.5%] xl:w-[61.5%] 2xl:w-[63%] opacity-0 translate-y-10 transition-all duration-700 ease-in-out scroll-reveal">
+      <h2 class="pt-12 text-2xl font-normal sm:text-[2rem] md:pt-0 md:pb-2 md:text-[1.8rem] lg:text-[2rem] xl:text-[2.2rem]" data-i18n="aboutMe.aboutMeTitle">
+        About <span class="font-bold">Me</span>
+      </h2>
+  
+      <p class="leading-relaxed py-4 md:py-2 text-lg text-zinc-500 lg:py-4 md:text-[0.9rem] lg:text-[1.105rem] xl:py-5 xl:text-[1.205rem] 2xl:text-[1.31rem] 2xl:leading-loose lg:py-4 xl:py-2 2xl:py-5" data-i18n="aboutMe.intro">
+       .
+      </p>
+  
+      <p class="leading-relaxed py-4 md:py-2 text-lg text-zinc-500 md:text-[0.875rem] lg:py-5 lg:text-[1.105rem] xl:text-[1.205rem] 2xl:text-[1.31rem] 2xl:leading-loose xl:py-4 2xl:py-6" data-i18n="aboutMe.extra">
+       
+      </p>
+    </div>
+  </div>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const elements = document.querySelectorAll(".scroll-reveal");
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.remove("opacity-0", "translate-y-10");
+          }
+        });
+      }, { threshold: 0.2 });
+  
+      elements.forEach(element => {
+        observer.observe(element);
+      });
+    });
+  </script>
+  
