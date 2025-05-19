@@ -40,12 +40,12 @@
       },
     "aboutMe":{
         "aboutMeTitle": "Sobre <span class=\"font-bold\">mí</span>",
-        "intro": "¡Hola! Soy Alejandro, estudiante de Grado Superior de Desarrollo Web en Cataluña. Me apasiona la tecnología y el desarrollo de aplicaciones web, con especial interés en el frontend. Actualmente, estoy perfeccionando mis habilidades en Astro, TailwindCSS, HTML y CSS, y tengo pendiente aprender JavaScript, Vue.js y React. También estoy estudiando PostgreSQL y Python, y tengo conocimientos básicos de consola Linux.",
-        "extra": "Además, estoy realizando un curso de Desarrollo Blockchain y, una vez domine el Desarrollo Web, tengo intención de profundizar en este campo. Me considero una persona proactiva, que trabaja bien en equipo y siempre busca mejorar. 🚀"
+        "intro": "¡Hola! Soy Alejandro, estudiante de Grado Superior de Desarrollo Web en Cataluña. Me apasiona la tecnología y el desarrollo frontend, y actualmente estoy perfeccionando mis habilidades con Astro, TailwindCSS, HTML y CSS.También estoy aprendiendo JavaScript, Vue.js y React, y tengo conocimientos de Python, PostgreSQL, MongoDB y uso básico de la consola de Linux.",
+        "extra": "En paralelo, estoy realizando un curso de Desarrollo Blockchain, con la intención de especializarme más adelante. Me considero una persona proactiva, con facilidad para trabajar en equipo, iniciativa y muchas ganas de seguir aprendiendo y creciendo profesionalmente. 🚀"
     },
     "contact":{
         "contactTitle": "Let’s <span class=\"build font-bold\">build</span><br/>Something amazing",
-    "intro": "Actualmente estoy creando pequeñas páginas web para mejorar mis habilidades en Astro, TailwindCSS, HTML y CSS, además de estudiar un poco de JavaScript y Vue.js. Estoy buscando trabajo para seguir creciendo y aportar mis conocimientos a un equipo dinámico.",
+    "intro": "Actualmente estoy creando pequeñas páginas web para mejorar mis habilidades en Astro, TailwindCSS, HTML y CSS, además de estudiar un poco de JavaScript y Vue.js. Estoy buscando trabajo para seguir creciendo y aportar mis conocimientos a un equipo dinámico. ",
     "email": "sasha.stankevich223@gmail.com",
     "socialLinks": {
       "email": "mailto:sasha.stankevich223@gmail.com",
