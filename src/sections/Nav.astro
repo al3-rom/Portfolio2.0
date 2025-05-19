@@ -12,13 +12,13 @@
       });
     }
 
-    // Cargar las traducciones
+   
     async function loadLang(lang) {
       const response = await fetch(`/i18n/${lang}.json`);
       return await response.json();
     }
 
-    // Aplicar traducciones
+   
     function applyTranslations(data) {
       const elements = document.querySelectorAll("[data-i18n]");
       elements.forEach(el => {
@@ -42,10 +42,10 @@
       });
     }
 
-    // Cambiar el archivo del CV según el idioma
+   
     function updateCVLink(lang) {
       const cvLink = document.querySelector("#cv-link");
-      let cvFile = 'Curriculum_CV_ES.pdf'; // por defecto en español
+      let cvFile = 'Curriculum_CV_ES.pdf'; 
 
       if (lang === 'en') {
         cvFile = 'Curriculum_CV_EN.pdf';
@@ -57,7 +57,7 @@
       cvLink.setAttribute('download', `CV_Alejandro.pdf`);
     }
 
-    // Selector de idioma
+   
     const selector = document.getElementById("lang-selector");
     const savedLang = localStorage.getItem("lang") || "es";
     selector.value = savedLang;
@@ -112,3 +112,35 @@
     </section>
   </nav>
 </div>
+
+<style>
+ #burger-icon path {
+      transition: transform 0.5s ease, opacity 0.3s ease;
+      
+    }
+  
+    #top-bar {
+      transform-origin: top left;
+    }
+    
+    #middle-bar {
+      opacity: 1;
+    }
+  
+    #bottom-bar {
+      transform-origin: bottom left;
+    }
+  
+   
+    #burger-icon.open #top-bar {
+      transform: translateY(-4px) translateX(8px) rotate(45deg);
+    }
+  
+    #burger-icon.open #middle-bar {
+      opacity: 0;
+    }
+  
+    #burger-icon.open #bottom-bar {
+      transform: translateY(-2px) translateX(8px) rotate(-45deg);
+    }
+</style>
