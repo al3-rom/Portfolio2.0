@@ -114,33 +114,20 @@
 </div>
 
 <style>
- #burger-icon path {
-      transition: transform 0.5s ease, opacity 0.3s ease;
-      
-    }
-  
-    #top-bar {
-      transform-origin: top left;
-    }
-    
-    #middle-bar {
-      opacity: 1;
-    }
-  
-    #bottom-bar {
-      transform-origin: bottom left;
-    }
-  
-   
-    #burger-icon.open #top-bar {
-      transform: translateY(-4px) translateX(8px) rotate(45deg);
-    }
-  
-    #burger-icon.open #middle-bar {
-      opacity: 0;
-    }
-  
-    #burger-icon.open #bottom-bar {
-      transform: translateY(-2px) translateX(8px) rotate(-45deg);
-    }
+  #burger-icon.open #top-bar {
+  transform: translateY(6px) rotate(45deg);
+}
+#burger-icon.open #middle-bar {
+  opacity: 0;
+}
+#burger-icon.open #bottom-bar {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* Transiciones suaves */
+#top-bar,
+#middle-bar,
+#bottom-bar {
+  transition: all 0.3s ease;
+}
 </style>
