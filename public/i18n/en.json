@@ -42,8 +42,8 @@
       },
     "aboutMe":{
         "aboutMeTitle": "About <span class=\"font-bold\">Me</span>",
-        "intro": "Hi! I'm Alejandro, a Higher Degree Web Development student in Catalonia. I’m passionate about technology and web application development, with a special interest in frontend. Currently, I'm perfecting my skills in Astro, TailwindCSS, HTML, and CSS, and I’m planning to learn JavaScript, Vue.js, and React. I’m also studying PostgreSQL and Python, and have basic knowledge of Linux console.",
-        "extra": "Additionally, I'm taking a Blockchain Development course, and once I master Web Development, I plan to dive deeper into this field. I consider myself a proactive person who works well in teams and is always looking to improve. 🚀"
+        "intro": "Hi! I'm Alejandro, a Higher Vocational Web Development student in Catalonia. I'm passionate about technology and frontend development, and I'm currently sharpening my skills with Astro, TailwindCSS, HTML, and CSS. I'm also learning JavaScript, Vue.js, and React, and I have knowledge of Python, PostgreSQL, MongoDB, and basic Linux command line usage.",
+        "extra": "At the same time, I'm taking a Blockchain Development course, aiming to specialize in it later. I consider myself proactive, with good teamwork skills, initiative, and a strong desire to keep learning and growing as a professional. 🚀"
     },
     "contact":{
         "contactTitle": "Let’s <span class=\"build font-bold\">build</span><br/>Something amazing",
