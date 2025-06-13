@@ -1,40 +1,60 @@
 ---
 import Footer from "@/sections/Footer.astro"
-
 ---
+
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-		<meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)">
-		<link rel="icon" type="image/svg+xml" href="favicon.jpeg"/>
-		<title data-i18n="layout.pageTitle">Portfolio</title>
-		<meta name="description" content="Portafolio de Alejandro, desarrollador web junior con experiencia en HTML, CSS, JavaScript, Astro, Python y más... "/>	
-		<meta name="keywords" content="Portafolio, Alejandro, desarrollador web junior, HTML, CSS, JavaScript, Astro, Python, postgreSQL"/>
-		<meta name="author" content="Alejandro" />
-		<meta name="description" content="Alejandro's portfolio, a junior web developer with experience in HTML, CSS, JavaScript, Astro, Python and more..." />
-		<meta name="keywords" content="Portfolio, Alejandro, junior web developer, HTML, CSS, JavaScript, Astro, Python, postgreSQL" />
-	
-	</head>
-	<body>
-		<div class="max-w-[80rem] ml-[1.5rem] mr-[1.5rem] pt-[1.5rem] sm:pt-[1.5rem] 2xl:max-w-[100%]">
-			<slot />
-		</div>
-		<Footer />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Theme color for light/dark mode -->
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="/favicon.jpeg" />
+
+    <!-- SEO Meta -->
+    <title data-i18n="layout.pageTitle">Portfolio</title>
+    <meta name="description" content="Alejandro's portfolio, a junior web developer with experience in Astro, TailwindCSS, Vue.js, HTML, CSS, JavaScript, and more." />
+    <meta name="keywords" content="Portfolio, Alejandro, Web Developer, Junior Developer, Frontend, Astro, TailwindCSS, Vue.js, HTML, CSS, JavaScript, PostgreSQL, MongoDB, Python, Erasmus, Warsaw, Remote" />
+    <meta name="author" content="Alejandro Romero Stankevich" />
+
+    <!-- Open Graph (for Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Alejandro | Web Developer Portfolio" />
+    <meta property="og:description" content="Junior Web Developer based in Poland. Open to remote opportunities." />
+    <meta property="og:image" content="/preview.jpg" />
+    <meta property="og:url" content="https://your-portfolio-domain.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Alejandro | Web Developer Portfolio" />
+    <meta name="twitter:description" content="Junior Web Developer with Astro, Tailwind, and Vue.js experience. Currently in Poland." />
+    <meta name="twitter:image" content="/preview.jpg" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="max-w-[80rem] mx-[1.5rem] pt-[1.5rem] 2xl:max-w-full">
+      <slot />
+    </div>
+    <Footer />
+  </body>
 </html>
 
 <style>
-	html {
-		font-family: 'Inter', sans-serif;
-		scroll-behavior: smooth;
-		scroll-timeline: none
-	},
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
+  html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
 </style>

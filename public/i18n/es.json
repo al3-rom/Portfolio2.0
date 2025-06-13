@@ -13,22 +13,21 @@
         "contactMe": "Contáctame",
         "downloadCV": "Descargar CV"
     },
-    "hero":{
-        "greeting": "Hola, soy <span class=\"font-bold\">Alejandro</span>.",
-        "profession": "<span class=\"desarrollador font-bold\">Desarrollador</span> <span class=\"font-bold\">Web</span>",
-        "location": "Ubicado en <span class=\"font-bold\">España.</span>",
-        "introText": "Soy Alejandro Romero Stankevich, desarrollador web junior. Actualmente, estudio un Grado Superior en Desarrollo Web. Estoy abierto a oportunidades laborales y prácticas. Me ubico en Barcelona/Tarragona📍.",
-        "downloadCV": "Descargar CV"
-    },
+    "hero": {
+  "greeting": "Hola, soy <span class=\"font-bold\">Alejandro</span>.",
+  "profession": "<span class=\"desarrollador font-bold\">Desarrollador</span> <span class=\"font-bold\">Web</span>",
+  "location": "Actualmente en <span class=\"font-bold\">Polonia</span> 🇵🇱",
+  "introText": "Soy Alejandro Romero Stankevich, un desarrollador web junior que actualmente vive en Katowice, Polonia, como parte del programa Erasmus+. Estoy estudiando un Grado Superior en Desarrollo Web y busco activamente oportunidades de prácticas o empleo, preferiblemente de forma remota o en Varsovia.",
+  "downloadCV": "Descargar CV"
+},
     "skills":{
         "skillsTitle": "Mis <span class=\"font-bold\">Habilidades</span>"
     },
     "exp":{
         "experienceTitle": "Mi <span class=\"font-bold\">Experiencia</span>",
-        "company": "ConquerBlocks",
-    
-        "duration": "Agosto 2023 - Presente",
-        "description": "He empezado un curso de Desarrollo Full Stack, que al principio estudiaba por mi cuenta en mi tiempo libre. El curso incluye Desarrollo de Blockchain, un área que me interesa explorar después de consolidar mis conocimientos en Desarrollo Web.",
+          "company": "MMBQ",
+  "duration": "Mayo 2025 – Presente",
+  "description": "Creé un sitio web moderno y responsivo como concepto para MMBQ — un operador móvil virtual ficticio enfocado en personas jóvenes y activas. El proyecto incluye temas claro/oscuro, internacionalización completa (inglés y español) y fue desarrollado con Astro, TailwindCSS y algo de Vue.js. Este trabajo me permitió mejorar mi flujo de trabajo frontend y enfocarme en diseño UX aplicado al mundo real.",
         "company1": "Grado Superior",
 
         "duration1": "Septiembre 2024 - Presente",
@@ -38,20 +37,20 @@
         "duration2": "Agosto 2023 - Presente",
         "description2": "En GitHub podéis ver todas mis actualizaciones y casi toda mi trayectoria de aprendizaje, incluyendo mis contribuciones y cómo han evolucionado mis habilidades a lo largo del tiempo."
       },
-    "aboutMe":{
-        "aboutMeTitle": "Sobre <span class=\"font-bold\">mí</span>",
-        "intro": "¡Hola! Soy Alejandro, estudiante de Grado Superior de Desarrollo Web en Cataluña. Me apasiona la tecnología y el desarrollo frontend, y actualmente estoy perfeccionando mis habilidades con Astro, TailwindCSS, HTML y CSS.También estoy aprendiendo JavaScript, Vue.js y React, y tengo conocimientos de Python, PostgreSQL, MongoDB y uso básico de la consola de Linux.",
-        "extra": "En paralelo, estoy realizando un curso de Desarrollo Blockchain, con la intención de especializarme más adelante. Me considero una persona proactiva, con facilidad para trabajar en equipo, iniciativa y muchas ganas de seguir aprendiendo y creciendo profesionalmente. 🚀"
-    },
+    "aboutMe": {
+  "aboutMeTitle": "Sobre <span class=\"font-bold\">mí</span>",
+  "intro": "¡Hola! Soy Alejandro, estudiante de Desarrollo Web que actualmente vive en Polonia gracias al programa Erasmus+. Me apasiona la tecnología y el desarrollo frontend. Estoy mejorando mis habilidades con Astro, TailwindCSS, HTML y CSS. También estoy aprendiendo JavaScript, Vue.js y tengo experiencia básica con React. Tengo conocimientos de Python, PostgreSQL, MongoDB y uso básico de la terminal de Linux.",
+  "extra": "Me considero una persona proactiva, con facilidad para el trabajo en equipo, iniciativa y muchas ganas de seguir aprendiendo y creciendo profesionalmente. 🚀"
+},
     "contact":{
-        "contactTitle": "Let’s <span class=\"build font-bold\">build</span><br/>Something amazing",
-    "intro": "Actualmente estoy creando pequeñas páginas web para mejorar mis habilidades en Astro, TailwindCSS, HTML y CSS, además de estudiar un poco de JavaScript y Vue.js. Estoy buscando trabajo para seguir creciendo y aportar mis conocimientos a un equipo dinámico. ",
-    "email": "sasha.stankevich223@gmail.com",
-    "socialLinks": {
-      "email": "mailto:sasha.stankevich223@gmail.com",
-      "github": "https://github.com/al3-rom",
-      "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
-    }
+         "contactTitle": "Construyamos <span class=\"build font-bold\">algo</span><br/>increíble",
+  "intro": "Actualmente vivo en Polonia con el programa Erasmus+ y estoy creando pequeños proyectos web para mejorar mis habilidades en Astro, TailwindCSS, HTML, CSS y Vue.js. Busco una oportunidad para crecer como desarrollador y aportar mis conocimientos a un equipo dinámico. Si encuentro la oportunidad adecuada, me encantaría quedarme y continuar viviendo en Polonia.",
+  "email": "sasha.stankevich223@gmail.com",
+  "socialLinks": {
+    "email": "mailto:sasha.stankevich223@gmail.com",
+    "github": "https://github.com/al3-rom",
+    "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
+  }
     },
     "footer":{
       "footerText": "© 2025 Alejandro | Buscando trabajo",
