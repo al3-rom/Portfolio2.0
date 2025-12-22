@@ -1,63 +1,63 @@
-{ 
+{
   "layout": {
-      "pageTitle": "Портфолио",
-      "description": "Портфолио Алехандро | Веб-разработчик",
-      "footerText": "© 2025 Александр | Ищу работу",
-      "github": "GitHub",
-      "email": "Email",
-      "linkedin": "LinkedIn"
-    },
-    "nav": {
-        "aboutMe": "Обо мне",
-        "skills": "Навыки",
-        "contactMe": "Связаться со мной",
-        "downloadCV": "Скачать резюме"
-    },
-    "hero": {
-  "greeting": "Привет, я <span class=\"font-bold\">Алехандро</span>.",
-  "profession": "<span class=\"desarrollador font-bold\">Веб</span> <span class=\"font-bold\">Разработчик</span>",
-  "location": "Сейчас нахожусь в <span class=\"font-bold\">Польше</span> 🇵🇱",
-  "introText": "Я Алехандро Ромеро Станкевич, начинающий веб-разработчик. Сейчас живу в Катовице (Польша) по программе Erasmus+. Учусь на курсе по веб-разработке (Grado Superior) и активно ищу стажировки или работу, предпочтительно удалённо или в Варшаве.",
-  "downloadCV": "Скачать резюме"
-},
-    "skills":{
-        "skillsTitle": "Мои <span class=\"font-bold\">Навыки</span>"
-       },
-    "exp":{
-        "experienceTitle": "Мой <span class=\"font-bold\">Опыт</span>",
-            "company": "MMBQ",
-  "duration": "Май 2025 – Настоящее время",
-  "description": "Я создал современную, адаптивную концепцию веб-сайта для MMBQ — вымышленного мобильного виртуального оператора, ориентированного на молодых и активных пользователей. Проект включает светлую и тёмную темы, полную интернационализацию (английский и испанский языки) и построен с использованием Astro, TailwindCSS и немного Vue.js. Это помогло мне улучшить фронтенд-воркфлоу и сосредоточиться на практическом UX-дизайне.",
-            "company1": "Grado Superior",
-          
-            "duration1": "Сентябрь 2024 - Настоящее время",
-            "description1": "В сентябре я начал курс Grado Superior по Web-разработке в институте в Каталонии. Курс длится два года, и я уже очень заинтересован в поиске работы или стажировок.",          
-            "company2": "Portfolio GitHub",
-      
-            "duration2": "Август 2023 - Настоящее время",
-            "description2": "На GitHub можно увидеть все мои обновления и почти весь мой путь обучения, включая мои вклады и то, как мои навыки развивались со временем."
-          
-    },
-    "aboutMe": {
-  "aboutMeTitle": "Обо <span class=\"font-bold\">мне</span>",
-  "intro": "Привет! Я Алехандро — студент курса по веб-разработке, сейчас живу в Польше по программе Erasmus+. Увлекаюсь технологиями и frontend-разработкой. Развиваю навыки в Astro, TailwindCSS, HTML и CSS. Также изучаю JavaScript, Vue.js и немного работал с React. У меня есть знания Python, PostgreSQL, MongoDB и базовые навыки работы с терминалом Linux.",
-  "extra": "Считаю себя проактивным человеком, умею работать в команде, проявляю инициативу и стремлюсь постоянно учиться и развиваться профессионально. 🚀"
-},
-    "contact":{
-        "contactTitle": "Давайте <span class=\"build font-bold\">создадим</span><br/>что-то крутое",
-  "intro": "Сейчас я живу в Польше по программе Erasmus+ и создаю небольшие веб-проекты, чтобы прокачать навыки в Astro, TailwindCSS, HTML, CSS и Vue.js. Я ищу возможность работать и развиваться как разработчик в динамичной команде. Если найду подходящее место, с радостью останусь жить в Польше.",
-  "email": "sasha.stankevich223@gmail.com",
-  "socialLinks": {
-    "email": "mailto:sasha.stankevich223@gmail.com",
-    "github": "https://github.com/al3-rom",
-    "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
-  }
-    },
-    "footer":{
-      "footerText": "© 2025 Alejandro | В поиске работы",
-      "github": "GitHub",
-      "email": "Email",
-      "linkedin": "LinkedIn"
+    "pageTitle": "Портфолио",
+    "description": "Портфолио Алехандро | Веб-разработчик",
+    "footerText": "© 2025 Alejandro",
+    "github": "GitHub",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  },
+  "nav": {
+    "aboutMe": "Обо мне",
+    "skills": "Навыки",
+    "contactMe": "Связаться",
+    "downloadCV": "Скачать резюме"
+  },
+  "hero": {
+    "greeting": "Привет, я <span class='font-bold'>Алехандро</span>.",
+    "professionLine1": "<span class='desarrollador font-bold'>Frontend</span>",
+    "professionLine2": "<span class='font-bold'>Разработчик</span>",
+    "location": "Сейчас в <span class='font-bold'>Каталонии, Испания</span> 🇪🇸",
+    "introText": "Я Алехандро Ромеро Станкевич, младший веб-разработчик, живущий в Каталонии, Испания. Я учусь на Высшую степень по Веб-разработке и создаю личные проекты с использованием современных технологий.",
+    "downloadCV": "Скачать резюме"
+  },
+  "skills": {
+    "skillsTitle": "Мои <span class=\"font-bold\">Навыки</span>"
+  },
+  "exp": {
+    "company_vc": "ViaConecta — корпоративный сайт телеком-компании",
+  "duration_vc": "Март 2025 – Октябрь 2025",
+  "description_vc": "Современный сайт с упором на UX, i18n и производительность: дизайн на TailwindCSS, компоненты (Vue.js), локализация (es/en/ca), карусель и сетка тарифов (Мобильный, Оптика + Мобильно), бэкенд на Supabase (PostgreSQL). Я отвечал за архитектуру, визуальную систему и интеграцию данных. Нажмите, чтобы перейти на сайт.",
+    "experienceTitle": "Мой <span class=\"font-bold\">Опыт</span>",
+    "company": "Проект Erasmus — мобильное приложение «Memory-Photos»",
+    "duration": "Май 2025 – Август 2025",
+    "description": "Кроссплатформенное приложение (Vue 3, Capacitor, Tailwind, i18n) для музея: сканирование QR-кодов и многоязычный офлайн-контент. Занимался анализом требований, локализацией на JSON, адаптивным UI/UX, интеграцией сканера QR и разрешений, командной работой (Trello/Figma) и документацией. Нажми, чтобы открыть запись в LinkedIn.",
+    "company1": "Высшее образование",
+    "duration1": "Сентябрь 2024 - по настоящее время",
+    "description1": "В сентябре я начал обучение на Высшую степень по Веб-разработке в колледже в Каталонии. Курс рассчитан на два года.",
+    "company2": "GitHub Портфолио",
+    "duration2": "Август 2023 - по настоящее время",
+    "description2": "На GitHub вы можете увидеть все мои обновления и почти весь мой путь обучения, включая мои вкладки и развитие навыков."
+  },
+  "aboutMe": {
+    "aboutMeTitle": "Обо <span class=\"font-bold\">мне</span>",
+    "intro": "Привет! Я Алехандро, студент Веб-разработки, который сейчас живет в Каталонии, Испания. Я увлечен технологиями и frontend-разработкой. Развиваю свои навыки в Astro, TailwindCSS, HTML и CSS. Также изучаю JavaScript, Vue.js и имею базовые знания React. Знаю Python, PostgreSQL, MongoDB и основы работы в терминале Linux.",
+    "extra": "Я считаю себя инициативным, коммуникабельным человеком, готовым учиться и профессионально расти. 🚀"
+  },
+  "contact": {
+    "contactTitle": "Давайте создадим <span class=\"build font-bold\">что-то</span><br/>крутое",
+    "intro": "Сейчас я живу в Каталонии и создаю небольшие веб-проекты, чтобы улучшить свои навыки в Astro, TailwindCSS, HTML, CSS и Vue.js.",
+    "email": "sasha.stankevich223@gmail.com",
+    "socialLinks": {
+      "email": "mailto:sasha.stankevich223@gmail.com",
+      "github": "https://github.com/al3-rom",
+      "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
     }
-   
+  },
+  "footer": {
+    "footerText": "© 2025 Alejandro",
+    "github": "GitHub",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  }
 }

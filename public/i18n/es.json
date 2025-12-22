@@ -1,62 +1,64 @@
 {
-    "layout": {
-      "pageTitle": "Portafolio",
+    
+  "layout": {
+    "pageTitle": "Portafolio",
     "description": "Portafolio de Alejandro | Desarrollador Web",
-    "footerText": "© 2025 Alejandro | Buscando trabajo",
+    "footerText": "© 2025 Alejandro"
+  },
+  "nav": {
+    "aboutMe": "Sobre mí",
+    "skills": "Habilidades",
+    "contactMe": "Contáctame",
+    "downloadCV": "Descargar CV"
+  },
+  "hero": {
+    "greeting": "Hola, soy <span class='font-bold'>Alejandro</span>.",
+    "professionLine1": "<span class='desarrollador font-bold'>Desarrollador</span>",
+    "professionLine2": "<span class='font-bold'>Web</span>",
+    "location": "Actualmente en <span class='font-bold'>Cataluña, España</span> 🇪🇸",
+    "introText": "Soy Alejandro Romero Stankevich, un desarrollador web junior que vive en Cataluña, España. Estoy estudiando un Grado Superior en Desarrollo Web y desarrollando proyectos web personales con tecnologías modernas.",
+    "downloadCV": "Descargar CV"
+  },
+  "skills": {
+    "skillsTitle": "Mis <span class=\"font-bold\">Tecnologías</span>"
+  },
+  "exp": {
+    "company_chatter": "Chatter — Plataforma Social (React + Node)",
+    "duration_chatter": "Octubre 2025",
+    "description_chatter": "Plataforma social full-stack desarrollada en 14 días. Haz clic para ver el post en LinkedIn con usuarios de prueba y demo.",
+    "company_wannapop": "Wannapop — Marketplace (Flask + Python)",
+    "duration_wannapop": "Septiembre 2025 - Octubre 2025",
+    "description_wannapop": "Clon de Wallapop desarrollado con Flask. Haz clic para ver el post en LinkedIn con instrucciones y usuarios de prueba.",
+    "experienceTitle": "Mis <span class=\"font-bold\">Proyectos</span>",
+    "company": "MemoryPhotos - New Mobile App Project",
+    "duration": "Mayo 2025 – Agosto 2025",
+    "description": "App móvil diseñada como guía interactiva para un museo y sus placas conmemorativas. Permite escanear códigos QR, aprender historias detrás de las exhibiciones y cambiar entre idiomas. Soluciona la falta de internet en el sitio ofreciendo acceso offline a todo el contenido. Tecnologías: Vue 3, Capacitor, TailwindCSS. Haz clic para ver más en LinkedIn.",
+    "company1": "Grado Superior - DAW",
+    "duration1": "Septiembre 2024 - Presente",
+    "description1": "Cursando Desarrollo de Aplicaciones Web. Formación intensiva en desarrollo full-stack, metodologías ágiles y despliegue de aplicaciones.",
+    "company2": "Portfolio GitHub",
+    "duration2": "Agosto 2023 - Presente",
+    "description2": "En GitHub podéis ver todas mis actualizaciones y casi toda mi trayectoria de aprendizaje, incluyendo mis contribuciones y cómo han evolucionado mis habilidades a lo largo del tiempo."
+  },
+  "aboutMe": {
+    "aboutMeTitle": "Sobre <span class=\"font-bold\">mí</span>",
+    "intro": "A los 15 estudié Panadería y Pastelería en Bielorrusia, pero a los 17 cambié de país y llegué a España con ganas de construir un futuro. Mi hermano me introdujo a la programación y supe que era lo mío. A los 19 aprobé el acceso a Grado Superior y tras probar cursos intensivos, aposté por la formación reglada.",
+    "extra": "A los 21 me matriculé en DAW y hoy, con 22, estoy terminando y buscando mi primera oportunidad en IT. Hablo Ruso (nativo), Español (nativo) e Inglés (B2). ¡Abierto a roles junior! 🚀"
+  },
+  "contact": {
+    "contactTitle": "¡Trabajemos <span class=\"build font-bold\">juntos!</span>",
+    "intro": "Más allá del código, me impulsa la curiosidad y las ganas de crear productos que marquen la diferencia. Estoy buscando activamente unirme a un equipo donde pueda aportar, aprender y crecer. ¿Tienes un desafío para mí? ¡Hablemos!",
+    "email": "sasha.stankevich233@gmail.com",
+    "socialLinks": {
+      "email": "mailto:sasha.stankevich233@gmail.com",
+      "github": "https://github.com/al3-rom",
+      "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
+    }
+  },
+  "footer": {
+    "footerText": "© 2025 Alejandro",
     "github": "GitHub",
     "email": "Email",
     "linkedin": "LinkedIn"
-    },
-    "nav": {
-        "aboutMe": "Sobre mí",
-        "skills": "Habilidades",
-        "contactMe": "Contáctame",
-        "downloadCV": "Descargar CV"
-    },
-    "hero": {
-  "greeting": "Hola, soy <span class=\"font-bold\">Alejandro</span>.",
-  "profession": "<span class=\"desarrollador font-bold\">Desarrollador</span> <span class=\"font-bold\">Web</span>",
-  "location": "Actualmente en <span class=\"font-bold\">Polonia</span> 🇵🇱",
-  "introText": "Soy Alejandro Romero Stankevich, un desarrollador web junior que actualmente vive en Katowice, Polonia, como parte del programa Erasmus+. Estoy estudiando un Grado Superior en Desarrollo Web y busco activamente oportunidades de prácticas o empleo, preferiblemente de forma remota o en Varsovia.",
-  "downloadCV": "Descargar CV"
-},
-    "skills":{
-        "skillsTitle": "Mis <span class=\"font-bold\">Habilidades</span>"
-    },
-    "exp":{
-        "experienceTitle": "Mi <span class=\"font-bold\">Experiencia</span>",
-          "company": "MMBQ",
-  "duration": "Mayo 2025 – Presente",
-  "description": "Creé un sitio web moderno y responsivo como concepto para MMBQ — un operador móvil virtual ficticio enfocado en personas jóvenes y activas. El proyecto incluye temas claro/oscuro, internacionalización completa (inglés y español) y fue desarrollado con Astro, TailwindCSS y algo de Vue.js. Este trabajo me permitió mejorar mi flujo de trabajo frontend y enfocarme en diseño UX aplicado al mundo real.",
-        "company1": "Grado Superior",
-
-        "duration1": "Septiembre 2024 - Presente",
-        "description1": "En septiembre comencé el Grado Superior de Desarrollo Web en un instituto de Cataluña. El curso tiene una duración de dos años, y ya estoy interesado en encontrar trabajo o prácticas.",
-        "company2": "Portfolio GitHub",
-
-        "duration2": "Agosto 2023 - Presente",
-        "description2": "En GitHub podéis ver todas mis actualizaciones y casi toda mi trayectoria de aprendizaje, incluyendo mis contribuciones y cómo han evolucionado mis habilidades a lo largo del tiempo."
-      },
-    "aboutMe": {
-  "aboutMeTitle": "Sobre <span class=\"font-bold\">mí</span>",
-  "intro": "¡Hola! Soy Alejandro, estudiante de Desarrollo Web que actualmente vive en Polonia gracias al programa Erasmus+. Me apasiona la tecnología y el desarrollo frontend. Estoy mejorando mis habilidades con Astro, TailwindCSS, HTML y CSS. También estoy aprendiendo JavaScript, Vue.js y tengo experiencia básica con React. Tengo conocimientos de Python, PostgreSQL, MongoDB y uso básico de la terminal de Linux.",
-  "extra": "Me considero una persona proactiva, con facilidad para el trabajo en equipo, iniciativa y muchas ganas de seguir aprendiendo y creciendo profesionalmente. 🚀"
-},
-    "contact":{
-         "contactTitle": "Construyamos <span class=\"build font-bold\">algo</span><br/>increíble",
-  "intro": "Actualmente vivo en Polonia con el programa Erasmus+ y estoy creando pequeños proyectos web para mejorar mis habilidades en Astro, TailwindCSS, HTML, CSS y Vue.js. Busco una oportunidad para crecer como desarrollador y aportar mis conocimientos a un equipo dinámico. Si encuentro la oportunidad adecuada, me encantaría quedarme y continuar viviendo en Polonia.",
-  "email": "sasha.stankevich223@gmail.com",
-  "socialLinks": {
-    "email": "mailto:sasha.stankevich223@gmail.com",
-    "github": "https://github.com/al3-rom",
-    "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
   }
-    },
-    "footer":{
-      "footerText": "© 2025 Alejandro | Buscando trabajo",
-  "github": "GitHub",
-  "email": "Email",
-  "linkedin": "LinkedIn"
-    }
-
 }

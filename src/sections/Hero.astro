@@ -1,7 +1,7 @@
 ---
 import Email from '@/assets/Email.astro'
-import Github from '@/assets/GitHub.astro'
-import Linkedin from '@/assets/LinkedIn.astro'
+import GitHub from '@/assets/GitHub.astro'
+import LinkedIn from '@/assets/LinkedIn.astro'
 ---
 
 <div class="w-full overflow-x-hidden">
@@ -47,23 +47,20 @@ import Linkedin from '@/assets/LinkedIn.astro'
   <!-- Enlaces sociales -->
   <section class="p-4 md:flex md:pl-0 md:pt-0">
     <ul class="flex justify-center gap-4 mt-4 mb-2">
-      <a href="https://github.com/al3-rom" target="_blank"
-         class="w-10 h-10 p-2 border border-black rounded flex items-center justify-center">
-        <Github />
-      </a>
-      <a href="https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/" target="_blank"
-         class="w-10 h-10 p-2 border border-black rounded flex items-center justify-center">
-        <Linkedin />
-      </a>
-      <a href="mailto:sasha.stankevich223@gmail.com" target="_blank"
-         class="w-10 h-10 p-2 border border-black rounded flex items-center justify-center">
+      <a href="mailto:sasha.stankevich223@gmail.com" target="_blank" class="w-11 border-2 border-black rounded p-2">
         <Email />
+      </a>
+      <a href="https://github.com/al3-rom" target="_blank" class="w-11 border-2 border-black rounded p-2">
+        <GitHub />
+      </a>
+      <a href="https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/" target="_blank" class="w-11 border-2 border-black rounded p-2">
+        <LinkedIn />
       </a>
     </ul>
   </section>
 
   <!-- Botón CV (solo en móvil) -->
-  <section class="text-[1.3rem] p-4 text-center block md:hidden">
+  <section class="text-[1.3rem] p-4 pb-12 text-center block md:hidden">
     <a id="cv-download" href="/Curriculum_CV_ES.pdf" download="CV_Alejandro_ES.pdf"
        class="mt-3 inline-block bg-black text-white text-sm px-4 py-2 rounded shadow-sm group"
        data-i18n="hero.downloadCV">
