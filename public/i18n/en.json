@@ -2,7 +2,7 @@
   "layout": {
     "pageTitle": "Portfolio",
     "description": "Alejandro's Portfolio | Web Developer",
-    "footerText": "© 2025 Alejandro",
+    "footerText": "© 2026 Alejandro",
     "github": "GitHub",
     "email": "Email",
     "linkedin": "LinkedIn"
@@ -18,7 +18,7 @@
     "professionLine1": "<span class='desarrollador font-bold'>Frontend</span>",
     "professionLine2": "<span class='font-bold'>Developer</span>",
     "location": "Currently in <span class='font-bold'>Catalonia, Spain</span> 🇪🇸",
-    "introText": "I'm Alejandro Romero Stankevich, a junior web developer based in Catalonia, Spain. I'm studying a Higher Degree in Web Development and building personal web projects with modern technologies.",
+    "introText": "I'm Alejandro Romero Stankevich, a junior web developer based in Catalonia, Spain. I have finished a Higher Degree in Web Development and I'm currently building personal web projects with modern technologies.",
     "downloadCV": "Download CV"
   },
   "skills": {
@@ -35,17 +35,22 @@
     "company": "MemoryPhotos - New Mobile App Project",
     "duration": "May 2025 – August 2025",
     "description": "A mobile app designed as an interactive guide for a unique museum and its memory plaques. It addresses the lack of internet access at the site by providing offline access to all content. Features include QR scanning, multi-language support, and a responsive UI. Tech stack: Vue 3, Capacitor, TailwindCSS. Click to view more on LinkedIn.",
-    "company1": "Higher Degree - Web Dev",
-    "duration1": "September 2024 - Present",
-    "description1": "Currently studying Web Application Development. Intensive training in full-stack development, agile methodologies, and application deployment.",
+    "company1": "Higher Degree in Web Dev - Instituto Joaquim Mir",
+    "duration1": "September 2024 - Finished (2026)",
+    "description1": "I have finished the Higher Degree Training Cycle in Web Application Development (DAW) at Instituto Joaquim Mir. Intensive training in full-stack development, agile methodologies, and application deployment.",
     "company2": "GitHub Portfolio",
     "duration2": "August 2023 - Present",
     "description2": "On GitHub you can see all my updates and almost my entire learning journey, including my contributions and how my skills have evolved over time."
   },
   "aboutMe": {
     "aboutMeTitle": "About <span class=\"font-bold\">Me</span>",
-    "intro": "At 15 I studied Bakery in Belarus, but at 17 I moved to Spain ready to build a future. My brother introduced me to programming and I knew it was for me. At 19 I passed the access exam for Higher Education and after trying bootcamps, I bet on formal education.",
-    "extra": "At 21 I enrolled in Web App Development (DAW) and today, at 22, I am finishing it and looking for my first opportunity in IT. I speak Russian (Native), Spanish (Native), and English (B2). Open to junior roles! 🚀"
+    "p1": "At 15, I studied Bakery and Pastry in Belarus. At 17, I moved to Spain — without having everything figured out, but eager to build a future. At 21, I enrolled in the Higher Technician in Web Application Development (DAW).",
+    "p2": "Now, at 22, I have finished my studies and am ready to launch my career in the industry. Here is where I stand out: I have the technical mindset of a developer, but I also thrive in communication and coordination.",
+    "p3": "I am looking for opportunities as a Junior Developer or related roles. I want to use my trilingual skills and technical background to bridge the gap between code, products, and people.",
+    "languagesTitle": "Languages",
+    "russian": "Russian (Native)",
+    "spanish": "Spanish (Native level)",
+    "english": "English (B2)"
   },
   "contact": {
     "contactTitle": "Let's work <span class=\"build font-bold\">together!</span>",
@@ -58,7 +63,7 @@
     }
   },
   "footer": {
-    "footerText": "© 2025 Alejandro",
+    "footerText": "© 2026 Alejandro",
     "github": "GitHub",
     "email": "Email",
     "linkedin": "LinkedIn"

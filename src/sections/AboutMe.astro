@@ -1,26 +1,41 @@
-<div class="mt-8 flex justify-center items-start flex-col md:flex-row lg:pt-12 xl:pt-16" id="about-me">  
+<div class="mt-16 flex justify-center items-center flex-col lg:flex-row gap-12 lg:gap-16 lg:pt-12" id="about-me">  
   <!-- Imagen -->
-  <div class="rounded-[3%] mt-[1%] overflow-hidden shadow-lg border-4 border-white justify-center ml-auto mr-auto sm:w-full md:w-[25rem] md:pt-2 md:mr-[5%] lg:w-[37.5%] xl:w-[38.5%] 2xl:w-[37%]">
-    <img 
-      src="AboutMe2.png" 
-      alt="Alejandro - About Me" 
-      class="rounded-full md:rounded-[20%] p-2 m-auto w-[60%] sm:w-[40%] md:w-[25rem] md:h-[25rem] lg:w-[23rem] lg:h-[23rem] xl:w-[23.5rem] xl:h-[23.5rem] 2xl:w-[26rem] 2xl:h-[26rem] object-cover"
-    />
+  <div class="w-full lg:w-[40%] flex justify-center">
+    <div class="relative group w-[60%] sm:w-[50%] md:w-[40%] lg:w-full max-w-[400px] aspect-square">
+      <div class="absolute -inset-2 sm:-inset-4 bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full blur-lg sm:blur-xl opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
+      <div class="relative w-full h-full rounded-full border border-white/10 p-[6px] sm:p-2 bg-neutral-950/60 backdrop-blur-xl shadow-2xl transition-transform duration-500 group-hover:scale-[1.02]">
+        <div class="w-full h-full rounded-full overflow-hidden [clip-path:circle(50%)]">
+          <img 
+            src="AboutMe2.png" 
+            alt="Alejandro - About Me" 
+            class="w-full h-full object-cover scale-[1.05]"
+          />
+        </div>
+      </div>
+    </div>
   </div>
 
   <!-- Texto -->
-  <div class="text-start md:w-[50%] lg:w-[62.5%] xl:w-[61.5%] 2xl:w-[63%] opacity-0 translate-y-10 transition-all duration-700 ease-in-out scroll-reveal">
-    <h2 class="pt-12 text-2xl font-normal sm:text-[2rem] md:pt-0 md:pb-2 md:text-[1.8rem] lg:text-[2rem] xl:text-[2.2rem]" data-i18n="aboutMe.aboutMeTitle">
-      About <span class="font-bold">Me</span>
+  <div class="w-full lg:w-[60%] bg-neutral-900/40 backdrop-blur-md border border-neutral-800/60 rounded-3xl p-8 lg:p-10 shadow-2xl opacity-0 translate-y-10 transition-all duration-700 ease-in-out scroll-reveal">
+    <h2 class="text-3xl lg:text-4xl font-normal text-neutral-100 mb-6" data-i18n="aboutMe.aboutMeTitle">
+      About <span class="font-bold text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">Me</span>
     </h2>
 
-    <p class="leading-relaxed py-4 md:py-2 text-lg text-zinc-500 md:text-[0.9rem] lg:text-[1.105rem] xl:py-5 xl:text-[1.205rem] 2xl:text-[1.31rem] 2xl:leading-loose" data-i18n="aboutMe.intro">
-      <!-- Aquí se inyectará la traducción -->
-    </p>
+    <div class="flex flex-col gap-5 text-neutral-400 text-[1.05rem] lg:text-[1.15rem] leading-relaxed text-pretty">
+      <p data-i18n="aboutMe.p1"></p>
+      <p data-i18n="aboutMe.p2"></p>
+      <p data-i18n="aboutMe.p3"></p>
+    </div>
 
-    <p class="leading-relaxed py-4 md:py-2 text-lg text-zinc-500 md:text-[0.875rem] lg:py-5 lg:text-[1.105rem] xl:text-[1.205rem] 2xl:text-[1.31rem] 2xl:leading-loose xl:py-4 2xl:py-6" data-i18n="aboutMe.extra">
-      <!-- Aquí se inyectará la traducción -->
-    </p>
+    <!-- Languages Section -->
+    <div class="pt-8 mt-6 border-t border-neutral-800/50">
+      <h3 class="text-lg font-semibold pb-4 text-neutral-300" data-i18n="aboutMe.languagesTitle">Languages</h3>
+      <div class="flex flex-wrap gap-3 text-sm font-medium text-neutral-300">
+        <span class="bg-neutral-950 border border-neutral-800 rounded-full px-5 py-2 shadow-sm transition-colors hover:border-neutral-600" data-i18n="aboutMe.russian"></span>
+        <span class="bg-neutral-950 border border-neutral-800 rounded-full px-5 py-2 shadow-sm transition-colors hover:border-neutral-600" data-i18n="aboutMe.spanish"></span>
+        <span class="bg-neutral-950 border border-neutral-800 rounded-full px-5 py-2 shadow-sm transition-colors hover:border-neutral-600" data-i18n="aboutMe.english"></span>
+      </div>
+    </div>
   </div>
 </div>
 

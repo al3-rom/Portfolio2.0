@@ -3,7 +3,7 @@
   "layout": {
     "pageTitle": "Portafolio",
     "description": "Portafolio de Alejandro | Desarrollador Web",
-    "footerText": "© 2025 Alejandro"
+    "footerText": "© 2026 Alejandro"
   },
   "nav": {
     "aboutMe": "Sobre mí",
@@ -16,7 +16,7 @@
     "professionLine1": "<span class='desarrollador font-bold'>Desarrollador</span>",
     "professionLine2": "<span class='font-bold'>Web</span>",
     "location": "Actualmente en <span class='font-bold'>Cataluña, España</span> 🇪🇸",
-    "introText": "Soy Alejandro Romero Stankevich, un desarrollador web junior que vive en Cataluña, España. Estoy estudiando un Grado Superior en Desarrollo Web y desarrollando proyectos web personales con tecnologías modernas.",
+    "introText": "Soy Alejandro Romero Stankevich, un desarrollador web junior que vive en Cataluña, España. He finalizado un Grado Superior en Desarrollo Web y actualmente desarrollo proyectos web personales con tecnologías modernas.",
     "downloadCV": "Descargar CV"
   },
   "skills": {
@@ -33,17 +33,22 @@
     "company": "MemoryPhotos - New Mobile App Project",
     "duration": "Mayo 2025 – Agosto 2025",
     "description": "App móvil diseñada como guía interactiva para un museo y sus placas conmemorativas. Permite escanear códigos QR, aprender historias detrás de las exhibiciones y cambiar entre idiomas. Soluciona la falta de internet en el sitio ofreciendo acceso offline a todo el contenido. Tecnologías: Vue 3, Capacitor, TailwindCSS. Haz clic para ver más en LinkedIn.",
-    "company1": "Grado Superior - DAW",
-    "duration1": "Septiembre 2024 - Presente",
-    "description1": "Cursando Desarrollo de Aplicaciones Web. Formación intensiva en desarrollo full-stack, metodologías ágiles y despliegue de aplicaciones.",
+    "company1": "CFGS en DAW - Instituto Joaquim Mir",
+    "duration1": "Septiembre 2024 - Finalizado (2026)",
+    "description1": "He finalizado el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW) en el Instituto Joaquim Mir. Formación intensiva en desarrollo full-stack, metodologías ágiles y despliegue de aplicaciones.",
     "company2": "Portfolio GitHub",
     "duration2": "Agosto 2023 - Presente",
     "description2": "En GitHub podéis ver todas mis actualizaciones y casi toda mi trayectoria de aprendizaje, incluyendo mis contribuciones y cómo han evolucionado mis habilidades a lo largo del tiempo."
   },
   "aboutMe": {
     "aboutMeTitle": "Sobre <span class=\"font-bold\">mí</span>",
-    "intro": "A los 15 estudié Panadería y Pastelería en Bielorrusia, pero a los 17 cambié de país y llegué a España con ganas de construir un futuro. Mi hermano me introdujo a la programación y supe que era lo mío. A los 19 aprobé el acceso a Grado Superior y tras probar cursos intensivos, aposté por la formación reglada.",
-    "extra": "A los 21 me matriculé en DAW y hoy, con 22, estoy terminando y buscando mi primera oportunidad en IT. Hablo Ruso (nativo), Español (nativo) e Inglés (B2). ¡Abierto a roles junior! 🚀"
+    "p1": "A los 15 años estudié Panadería y Pastelería en Bielorrusia. A los 17 me mudé a España, sin tenerlo todo resuelto, pero con muchas ganas de construir un futuro. A los 21 me matriculé en el Grado Superior de Desarrollo de Aplicaciones Web (DAW).",
+    "p2": "Ahora, con 22, he terminado mis estudios y estoy listo para lanzar mi carrera en la industria. Aquí es donde destaco: tengo la mentalidad técnica de un desarrollador, pero también me desenvuelvo muy bien en comunicación y coordinación.",
+    "p3": "Busco oportunidades como Junior Developer o algo relacionado. Quiero usar mis habilidades trilingües y mi formación técnica para cerrar la brecha entre el código, los productos y las personas.",
+    "languagesTitle": "Idiomas",
+    "russian": "Ruso (Nativo)",
+    "spanish": "Español (Nivel nativo)",
+    "english": "Inglés (B2)"
   },
   "contact": {
     "contactTitle": "¡Trabajemos <span class=\"build font-bold\">juntos!</span>",
@@ -56,7 +61,7 @@
     }
   },
   "footer": {
-    "footerText": "© 2025 Alejandro",
+    "footerText": "© 2026 Alejandro",
     "github": "GitHub",
     "email": "Email",
     "linkedin": "LinkedIn"
