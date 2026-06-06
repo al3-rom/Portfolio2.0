@@ -1,0 +1,69 @@
+{
+    
+  "layout": {
+    "pageTitle": "Portafolio",
+    "description": "Portafolio de Alejandro | Desarrollador Web",
+    "footerText": "© 2026 Alejandro"
+  },
+  "nav": {
+    "aboutMe": "Sobre mí",
+    "skills": "Habilidades",
+    "contactMe": "Contáctame",
+    "downloadCV": "Descargar CV"
+  },
+  "hero": {
+    "greeting": "Hola, soy <span class='font-bold'>Alejandro</span>.",
+    "professionLine1": "<span class='desarrollador font-bold'>Desarrollador</span>",
+    "professionLine2": "<span class='font-bold'>Web</span>",
+    "location": "Actualmente en <span class='font-bold'>Cataluña, España</span> 🇪🇸",
+    "introText": "Soy Alejandro Romero Stankevich, un desarrollador web junior que vive en Cataluña, España. He finalizado un Grado Superior en Desarrollo Web y actualmente desarrollo proyectos web personales con tecnologías modernas.",
+    "downloadCV": "Descargar CV"
+  },
+  "skills": {
+    "skillsTitle": "Mis <span class=\"font-bold\">Tecnologías</span>"
+  },
+  "exp": {
+    "company_chatter": "Chatter — Plataforma Social (React + Node)",
+    "duration_chatter": "Octubre 2025",
+    "description_chatter": "Plataforma social full-stack desarrollada en 14 días. Haz clic para ver el post en LinkedIn con usuarios de prueba y demo.",
+    "company_wannapop": "Wannapop — Marketplace (Flask + Python)",
+    "duration_wannapop": "Septiembre 2025 - Octubre 2025",
+    "description_wannapop": "Clon de Wallapop desarrollado con Flask. Haz clic para ver el post en LinkedIn con instrucciones y usuarios de prueba.",
+    "experienceTitle": "Mis <span class=\"font-bold\">Proyectos</span>",
+    "company": "MemoryPhotos - New Mobile App Project",
+    "duration": "Mayo 2025 – Agosto 2025",
+    "description": "App móvil diseñada como guía interactiva para un museo y sus placas conmemorativas. Permite escanear códigos QR, aprender historias detrás de las exhibiciones y cambiar entre idiomas. Soluciona la falta de internet en el sitio ofreciendo acceso offline a todo el contenido. Tecnologías: Vue 3, Capacitor, TailwindCSS. Haz clic para ver más en LinkedIn.",
+    "company1": "CFGS en DAW - Instituto Joaquim Mir",
+    "duration1": "Septiembre 2024 - Finalizado (2026)",
+    "description1": "He finalizado el Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW) en el Instituto Joaquim Mir. Formación intensiva en desarrollo full-stack, metodologías ágiles y despliegue de aplicaciones.",
+    "company2": "Portfolio GitHub",
+    "duration2": "Agosto 2023 - Presente",
+    "description2": "En GitHub podéis ver todas mis actualizaciones y casi toda mi trayectoria de aprendizaje, incluyendo mis contribuciones y cómo han evolucionado mis habilidades a lo largo del tiempo."
+  },
+  "aboutMe": {
+    "aboutMeTitle": "Sobre <span class=\"font-bold\">mí</span>",
+    "p1": "A los 15 años estudié Panadería y Pastelería en Bielorrusia. A los 17 me mudé a España, sin tenerlo todo resuelto, pero con muchas ganas de construir un futuro. A los 21 me matriculé en el Grado Superior de Desarrollo de Aplicaciones Web (DAW).",
+    "p2": "Ahora, con 22, he terminado mis estudios y estoy listo para lanzar mi carrera en la industria. Aquí es donde destaco: tengo la mentalidad técnica de un desarrollador, pero también me desenvuelvo muy bien en comunicación y coordinación.",
+    "p3": "Busco oportunidades como Junior Developer o algo relacionado. Quiero usar mis habilidades trilingües y mi formación técnica para cerrar la brecha entre el código, los productos y las personas.",
+    "languagesTitle": "Idiomas",
+    "russian": "Ruso (Nativo)",
+    "spanish": "Español (Nivel nativo)",
+    "english": "Inglés (B2)"
+  },
+  "contact": {
+    "contactTitle": "¡Trabajemos <span class=\"build font-bold\">juntos!</span>",
+    "intro": "Más allá del código, me impulsa la curiosidad y las ganas de crear productos que marquen la diferencia. Estoy buscando activamente unirme a un equipo donde pueda aportar, aprender y crecer. ¿Tienes un desafío para mí? ¡Hablemos!",
+    "email": "sasha.stankevich233@gmail.com",
+    "socialLinks": {
+      "email": "mailto:sasha.stankevich233@gmail.com",
+      "github": "https://github.com/al3-rom",
+      "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
+    }
+  },
+  "footer": {
+    "footerText": "© 2026 Alejandro",
+    "github": "GitHub",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  }
+}

@@ -5,6 +5,7 @@ import LinkedIn from '@/assets/LinkedIn.astro'
 ---
 
 <div class="mt-8 flex justify-center items-start flex-col pb-6" id="contact-me">
+<<<<<<< HEAD
     <h2 class="text-3xl font-bold pt-u8 pb-8 lg:text-[2.1rem] lg:mt-10">
         Let’s <span class="build font-bold">build</span><br/>Something amazing
     </h2>
@@ -32,3 +33,39 @@ import LinkedIn from '@/assets/LinkedIn.astro'
 }
     
 </style>
+=======
+  <h2 class="text-3xl font-bold pt-8 pb-8 lg:text-[2.1rem] lg:mt-10 text-neutral-100" data-i18n="contact.contactTitle">
+    Let’s <span class="build font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-rose-400">build</span><br />Something amazing
+  </h2>
+
+  <p class="font-normal text-neutral-400 text-start leading-relaxed md:w-[75%] lg:w-[70%] lg:text-[1.05rem] xl:w-[60%] 2xl:w-[50%]" data-i18n="contact.intro">
+    <!-- Este texto será reemplazado por el sistema i18n -->
+  </p>
+
+  <p class="font-bold text-xl py-3 md:text-[1.25rem] text-neutral-200" data-i18n="contact.email">
+    sasha.stankevich233@gmail.com
+  </p>
+
+  <section>
+    <ul class="flex justify-around gap-5 py-4 pb-4 md:w-[11rem] lg:w-[12rem]">
+      <a href="mailto:sasha.stankevich233@gmail.com" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-neutral-900 border border-neutral-700 hover:border-neutral-400 hover:bg-neutral-800 transition-all duration-300">
+        <Email />
+      </a>
+      <a href="https://github.com/al3-rom" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-neutral-900 border border-neutral-700 hover:border-neutral-400 hover:bg-neutral-800 transition-all duration-300">
+        <GitHub />
+      </a>
+      <a href="https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/" target="_blank" class="w-12 h-12 flex items-center justify-center rounded-full bg-neutral-900 border border-neutral-700 hover:border-neutral-400 hover:bg-neutral-800 transition-all duration-300">
+        <LinkedIn />
+      </a>
+    </ul>
+  </section>
+</div>
+
+<style>
+  :global(.build) {
+    background: linear-gradient(to right, #fb923c 0%, #fb7185 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+</style>
+>>>>>>> master

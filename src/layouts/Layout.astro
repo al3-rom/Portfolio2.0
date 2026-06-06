@@ -1,5 +1,6 @@
 ---
 import Footer from "@/sections/Footer.astro"
+<<<<<<< HEAD
 
 ---
 <!doctype html>
@@ -31,4 +32,74 @@ import Footer from "@/sections/Footer.astro"
 		width: 100%;
 		height: 100%;
 	}
+=======
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Theme color for light/dark mode -->
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#121212" media="(prefers-color-scheme: dark)" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="/favicon.jpeg" />
+
+    <!-- SEO Meta -->
+    <title data-i18n="layout.pageTitle">Portfolio</title>
+    <meta name="description" content="Alejandro's portfolio, a junior web developer with experience in Astro, TailwindCSS, Vue.js, HTML, CSS, JavaScript, and more." />
+    <meta name="keywords" content="Portfolio, Alejandro, Web Developer, Junior Developer, Frontend, Astro, TailwindCSS, Vue.js, HTML, CSS, JavaScript, PostgreSQL, MongoDB, Python, Remote, Barcelona, Spain" />
+    <meta name="author" content="Alejandro Romero Stankevich" />
+
+    <!-- Open Graph (for Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Alejandro | Web Developer Portfolio" />
+    <meta property="og:description" content="Junior Web Developer based in Catalonia, Spain. Open to remote opportunities." />
+    <meta property="og:image" content="/preview.jpg" />
+    <meta property="og:url" content="https://your-portfolio-domain.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Alejandro | Web Developer Portfolio" />
+    <meta name="twitter:description" content="Junior Web Developer with Astro, Tailwind, and Vue.js experience. Currently based in Catalonia, Spain." />
+    <meta name="twitter:image" content="/preview.jpg" />
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Devicon -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  </head>
+
+  <body class="bg-neutral-950 text-neutral-100 min-h-screen relative overflow-x-hidden selection:bg-purple-500/30">
+    <div class="fixed top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
+    <div class="w-full px-4 sm:px-6 md:px-8 pt-6 max-w-[80rem] mx-auto relative z-10">
+      <slot />
+    </div>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+   svg.ionicon {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    color: #fff; 
+  }
+>>>>>>> master
 </style>

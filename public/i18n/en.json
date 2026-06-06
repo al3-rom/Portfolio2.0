@@ -1,0 +1,71 @@
+{
+  "layout": {
+    "pageTitle": "Portfolio",
+    "description": "Alejandro's Portfolio | Web Developer",
+    "footerText": "© 2026 Alejandro",
+    "github": "GitHub",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  },
+  "nav": {
+    "aboutMe": "About Me",
+    "skills": "Skills",
+    "contactMe": "Contact Me",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I'm <span class='font-bold'>Alejandro</span>.",
+    "professionLine1": "<span class='desarrollador font-bold'>Frontend</span>",
+    "professionLine2": "<span class='font-bold'>Developer</span>",
+    "location": "Currently in <span class='font-bold'>Catalonia, Spain</span> 🇪🇸",
+    "introText": "I'm Alejandro Romero Stankevich, a junior web developer based in Catalonia, Spain. I have finished a Higher Degree in Web Development and I'm currently building personal web projects with modern technologies.",
+    "downloadCV": "Download CV"
+  },
+  "skills": {
+    "skillsTitle": "My <span class=\"font-bold\">Technologies</span>"
+  },
+  "exp": {
+    "company_chatter": "Chatter — Social Platform (React + Node)",
+    "duration_chatter": "October 2025",
+    "description_chatter": "Full-stack social platform developed in 14 days. Click to view the LinkedIn post with test users and demo.",
+    "company_wannapop": "Wannapop — Marketplace (Flask + Python)",
+    "duration_wannapop": "September 2025 - October 2025",
+    "description_wannapop": "Wallapop clone developed with Flask. Click to view the LinkedIn post with instructions and test users.",
+    "experienceTitle": "My <span class=\"font-bold\">Projects</span>",
+    "company": "MemoryPhotos - New Mobile App Project",
+    "duration": "May 2025 – August 2025",
+    "description": "A mobile app designed as an interactive guide for a unique museum and its memory plaques. It addresses the lack of internet access at the site by providing offline access to all content. Features include QR scanning, multi-language support, and a responsive UI. Tech stack: Vue 3, Capacitor, TailwindCSS. Click to view more on LinkedIn.",
+    "company1": "Higher Degree in Web Dev - Instituto Joaquim Mir",
+    "duration1": "September 2024 - Finished (2026)",
+    "description1": "I have finished the Higher Degree Training Cycle in Web Application Development (DAW) at Instituto Joaquim Mir. Intensive training in full-stack development, agile methodologies, and application deployment.",
+    "company2": "GitHub Portfolio",
+    "duration2": "August 2023 - Present",
+    "description2": "On GitHub you can see all my updates and almost my entire learning journey, including my contributions and how my skills have evolved over time."
+  },
+  "aboutMe": {
+    "aboutMeTitle": "About <span class=\"font-bold\">Me</span>",
+    "p1": "At 15, I studied Bakery and Pastry in Belarus. At 17, I moved to Spain — without having everything figured out, but eager to build a future. At 21, I enrolled in the Higher Technician in Web Application Development (DAW).",
+    "p2": "Now, at 22, I have finished my studies and am ready to launch my career in the industry. Here is where I stand out: I have the technical mindset of a developer, but I also thrive in communication and coordination.",
+    "p3": "I am looking for opportunities as a Junior Developer or related roles. I want to use my trilingual skills and technical background to bridge the gap between code, products, and people.",
+    "languagesTitle": "Languages",
+    "russian": "Russian (Native)",
+    "spanish": "Spanish (Native level)",
+    "english": "English (B2)"
+  },
+  "contact": {
+    "contactTitle": "Let's work <span class=\"build font-bold\">together!</span>",
+    "intro": "Beyond code, I am driven by curiosity and the desire to create products that make a difference. I am actively looking to join a team where I can contribute, learn, and grow. Have a challenge for me? Let's talk!",
+    "email": "sasha.stankevich233@gmail.com",
+    "socialLinks": {
+      "email": "mailto:sasha.stankevich233@gmail.com",
+      "github": "https://github.com/al3-rom",
+      "linkedin": "https://www.linkedin.com/in/alejandro-romero-stankevich-b42b30241/"
+    }
+  },
+  "footer": {
+    "footerText": "© 2026 Alejandro",
+    "github": "GitHub",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  }
+}
