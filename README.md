@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-Creating a portfolio with Astro, HTML, CSS y TailwindCSS.
-
-=======
 # 🚀 Alejandro Romero - Developer Portfolio
 
 ![Astro](https://img.shields.io/badge/Astro-0C111A?style=for-the-badge&logo=astro&logoColor=white)
@@ -77,4 +73,3 @@ Feel free to reach out to me if you are looking for a Junior Developer, want to 
 ---
 
 <p align="center">Made with ❤️ and Astro by Alejandro Romero</p>
->>>>>>> master

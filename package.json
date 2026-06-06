@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "",
-=======
   "name": "portfolio-alejandro",
->>>>>>> master
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -13,15 +9,9 @@
     "astro": "astro"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "@astrojs/react": "^4.2.1",
-    "@astrojs/tailwind": "^5.1.5",
-    "astro": "^5.1.9",
-=======
     "@astrojs/react": "^4.3.0",
     "@astrojs/tailwind": "^6.0.2",
     "astro": "^5.12.8",
->>>>>>> master
     "tailwindcss": "^3.4.17"
   }
 }
